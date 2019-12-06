@@ -38,25 +38,50 @@ body {
 	margin-right: auto;
 	width: 50%;
 	margin-top: 2%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.item a:hover {width: 105%;
 }
 
 
+.toptext {color: white;
+font-weight: bolder;
+font-size: 1em;}
 
-.toptext {color: white;}
-#divtop {background-image: url("https://images.unsplash.com/photo-1443884590026-2e4d21aee71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=727&q=80");
-background-repeat: no-repeat;
-background-size: 100%;
-margin: 2px 2px 2px 2px;
-padding-top: 2px;}
+.toptext2 {margin-bottom: 100px;
+	margin-top: 50px;
+font-size: 3em;
+color: white;
+	text-shadow: 5px 5px 5px black;}
+
+#divtop {
+	background-image: url("https://images.unsplash.com/photo-1443884590026-2e4d21aee71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=727&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 4px 4px 4px 4px;
+	padding: 3px;
+	border: 2px solid #021a40;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 #title {text-align: center;
-color: white;}
+color: white;
+margin: 25px 5px 50px 5px;}
+
 ol, ul {
 	list-style: none;
 }
 
 blockquote, q {
 	quotes: none;
+}
+
+.mapouter  {  margin: auto;
+	width: 50%;
+	margin-bottom: 50px;
+	margin-top: 50px
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -131,10 +156,10 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
-		line-height: 1.5em;
+		color: black;
+		font-size: 1.3em;
 	}
-
+#contactus {margin-bottom: 50px;}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
@@ -170,7 +195,9 @@ input, select, textarea {
 		}
 
 	footer {
-		margin: 2em 0 0 0;
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		height: 50%;
 	}
 
 	strong, b {
@@ -2157,7 +2184,6 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: darkgray;
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2165,12 +2191,14 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+				color: white;
 			}
 
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 1em;
+					color: white;
 				}
 
 					#nav ul li a span:before {
